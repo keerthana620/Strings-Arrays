@@ -1,0 +1,7 @@
+def smallest(arr,k):
+    arr.sort()
+    return arr[k - 1]
+array=[1,8,5,2,9,6]
+k_val=3
+small=smallest(array,k_val)
+print(small)
