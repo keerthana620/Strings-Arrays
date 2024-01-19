@@ -1,0 +1,7 @@
+def insert(original,position,character):
+    return original[:position] + character + original[position:]
+original="helloworld"
+position=2
+character="123"
+result=insert(original,position,character)
+print(result)
